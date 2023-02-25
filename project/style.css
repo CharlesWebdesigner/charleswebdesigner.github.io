@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #6d6969;
+}
+.welcome{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:70px;
+    color:#fff;
+    font-size: 25px;
+}
+.login{
+    background-color: #fff;
+    margin:10px;
+    padding-left: 20px;
+    padding-top:15px;
+}
+.amaze{
+    color:#fff;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input[type=name],input[type=password]{
+width: 90%;
+padding: 7px;
+margin-bottom: 7px;
+border-left: #6d6969 9px solid;
+}
+.button{
+    color: #fff;
+    background-color: #6d6969;
+    border: none;
+    font-size: 25px;
+    padding:5px 15px;
+}
+aside{
+    float: right;
+    margin-right:30px;
+    }
+nav img{
+    border: 1px; 
+    border-radius: 5px;
+    width: 20px;
+    padding-right: 20px;
+    margin-left:20px;
+}
+/*css for index.html*/

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login |Welcome </title>
+</head>
+<body>
+   <div class="countainer">
+ <p class="welcome">welcome</p>
+ <p class="amaze">This will be an amazing experience</p>
+   </div> 
+   <br>
+   <div class="login">
+    <form id="loginform">
+   <div>
+    <p>login:</p>
+    <input type="name" placeholder="Name" id="username" max="5">
+    <br>
+    <input type="password" placeholder="Password" id="password" max="6">
+    <br>
+    <input type="checkbox">
+    <label>Remember me</label>
+    <aside>
+        <button type="submit" class="button">Login</button>
+    </aside>
+    <br>
+    <p>Forgot password?</p>
+    <aside>Register Now?
+   </div>
+   </form>
+   <footer>
+    <nav>
+        <img src="twitter2.png">
+        <img src="facebook.png">
+        <img src="google.png">
+    </nav>
+   </footer>
+   <br>
+   </div>
+
+   <script>
+    const loginForm = document.getElementById("loginform");
+    loginForm.addEventListener("submit", function(event) {
+        event.preventDefault(); // prevent the form from submitting
+        const username = document.getElementById("username").value;
+        const password = document.getElementById("password").value;
+        if (username === "" || password === "") {
+            alert("Please enter both a username and password.");
+        } else {
+            // do something with the username and password, such as sending them to a server for authentication
+            window.location.href='index.html';
+        }
+    });
+</script>
+</body>
+</html>
